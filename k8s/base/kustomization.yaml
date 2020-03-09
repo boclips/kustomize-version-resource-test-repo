@@ -2,5 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: app
-  newName: boclipsconcourse:a-made-up-image
-  newTag: "1"
+  newName: eu.gcr.io/boclips-prod/boclips/
+  newTag: "2"
+commonAnnotations:
+  boclips-version: "2"
