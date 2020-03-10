@@ -3,6 +3,6 @@ kind: Kustomization
 images:
 - name: app
   newName: eu.gcr.io/boclips-prod/boclips/
-  newTag: "5"
+  newTag: "6"
 commonAnnotations:
-  boclips-version: "5"
+  boclips-version: "6"
