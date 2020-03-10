@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: app
-  newName: eu.gcr.io/boclips-prod/boclips/
+  newName: eu.gcr.io/boclips-prod/boclips/my-microservice
   newTag: "7"
 commonAnnotations:
   boclips-version: "7"
