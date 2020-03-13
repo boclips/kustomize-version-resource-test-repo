@@ -3,6 +3,6 @@ kind: Kustomization
 images:
 - name: app
   newName: eu.gcr.io/boclips-prod/boclips/my-microservice
-  newTag: "21"
+  newTag: "22"
 commonAnnotations:
-  boclips-version: "21"
+  boclips-version: "22"
